@@ -1,7 +1,7 @@
-Making Your X-Session Script Available From Your Display Manager
-================================================================
+Making Your X-Session Script Available From Your Login Manager
+==============================================================
 
-Most of the modern X desktop environments such as Gnome use a display manager to 
+Most of the modern X desktop environments such as Gnome use a login manager to 
 log you in and start your X session. These display mangers make it easy for 
 novices to get a very functional session started without spending a lot of time 
 configuring it. However, they become problematic if you wish to understand and 

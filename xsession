@@ -1,7 +1,7 @@
 #!/bin/sh
 #
-# To use a .xsession file with a graphical login manager (such as lxdm), put the 
-# following in /usr/share/xsessions/xsession.desktop
+# To use a .xsession file with a graphical login manager (such as gdm or lxdm), 
+# put the following in /usr/share/xsessions/xsession.desktop
 #    [Desktop Entry]
 #    Name=xsession
 #    Comment=Run users ~/.xsession file
