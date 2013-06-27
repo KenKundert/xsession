@@ -7,8 +7,8 @@
 #    Comment=Run users ~/.xsession file
 #    Exec=sh -c "$HOME/.xsession"
 #    Type=Application
-# and make sure this file is executable. Then when logging in you should be 
-# presented with 'xsession' as a choice of desktops. Choose it.
+# Then when logging in you should be presented with 'xsession' as a choice of 
+# desktops. Choose it.
 #
 # This is a bash file so we can start gnome-keyring here if we wish to
 # (gnome-keyring is not smart enough to be able to emit its environment 

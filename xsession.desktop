@@ -1,5 +1,5 @@
 [Desktop Entry]
 Name=xsession
-Comment=Run users ~/.xsession file
+Comment=Run user's ~/.xsession file
 Exec=sh -c "$HOME/.xsession"
 Type=Application
