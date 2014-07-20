@@ -9,7 +9,7 @@
 #    [Desktop Entry]
 #    Name=xsession
 #    Comment=Run users ~/.xsession file
-#    Exec=sh -c "$HOME/.xsession"
+#    Exec=~/.xsession
 #    Type=Application
 # Then when logging in you should be presented with 'xsession' as a choice of 
 # desktops. Choose it.
