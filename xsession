@@ -53,8 +53,11 @@ setxkbmap -option terminate:ctrl_alt_bksp -option ctrl:nocaps
 # run by normal # user.
 /usr/libexec/lxpolkit &
 
+# Activates copy/paste and screen resize when running as a vmware guest
+vmware-user-suid-wrapper
+
 # Set color of background
 xsetroot -solid royalblue
 
 # Start i3
-exec /usr/bin/i3 -V -d all
+exec /usr/bin/i3
