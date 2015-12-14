@@ -34,12 +34,7 @@ export TZ='America/Los_Angeles'
 #export TZ='Asia/Kolkata'
 #export TZ='Asia/Bangkok'
 
-# Start the message bus if it is not already running
-if test -z "$DBUS_SESSION_BUS_ADDRESS"; then
-    eval `dbus-launch --sh-syntax --exit-with-session`
-fi
-
-# Gnome keyring is started using pam by lxdm
+# Gnome keyring is started by pam
 # However, the environment variables are not set. Request the environment 
 # variables that point to the SSH and GPG agents from the running keyring 
 # daemon.
